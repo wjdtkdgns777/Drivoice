@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Runs only on cars (Android Automotive / Pleos Connect) -->
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!-- Pleos Vehicle SDK: read-only permissions we use -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />   <!-- brake, gear, odometer -->
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />  <!-- turn signal -->
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" /> <!-- wiper -->
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />  <!-- seat belts -->
+
+    <!-- Location for place-triggered stories -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Drivoice">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!-- Lets the screen stay usable while driving (audio-first, minimal UI) -->
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
