@@ -1,3 +1,170 @@
 <resources>
     <string name="app_name">Drivoice</string>
+    <string name="product_name">안심 마일리지</string>
+
+    <string name="tab_today">오늘 운전</string>
+    <string name="tab_before">출발 전</string>
+    <string name="tab_mileage">마일리지</string>
+    <string name="tab_uses">쓰는 곳</string>
+    <string name="tab_family">가족</string>
+    <string name="tab_settings">설정</string>
+
+    <string name="date_short">%1$d월 %2$d일</string>
+    <string name="today_earned_label">%1$s 쌓인 마일리지</string>
+    <string name="unit_mile">마일</string>
+    <string name="miles_value">%1$s마일</string>
+    <string name="amount_plus">+%1$s</string>
+    <string name="today_balance">쓸 수 있는 마일리지 %1$s마일</string>
+    <string name="summary_turns">회전 %1$d번 중 %2$d번 제때 켰습니다</string>
+    <string name="summary_tip">%1$s은 30m 전에 켜면 됩니다</string>
+    <string name="summary_no_turns">이번 운전에는 판정한 회전이 없습니다</string>
+
+    <string name="turns_title">회전 깜빡이</string>
+    <string name="turns_summary">%1$d번 중 %2$d번 제때 켰습니다</string>
+    <string name="turns_empty">내비 안내를 받으며 회전하면 여기에 기록됩니다</string>
+    <string name="turn_left">좌회전</string>
+    <string name="turn_right">우회전</string>
+    <string name="turn_on_time">제때 켬</string>
+    <string name="turn_late">늦게 켬</string>
+    <string name="turn_unguided">내비 없음</string>
+
+    <string name="kept_title">지킨 조건</string>
+    <string name="condition_night">야간 운전 안 함</string>
+    <string name="condition_highway">고속도로 피함</string>
+    <string name="condition_rest">%1$d분마다 쉬기</string>
+    <string name="condition_kept">지킴</string>
+    <string name="condition_broken">지키지 못함</string>
+    <string name="condition_unused">쓰지 않음</string>
+
+    <string name="conditions_title">스스로 정하는 운전 조건</string>
+    <string name="conditions_night_detail">해가 진 뒤에는 운전하지 않습니다</string>
+    <string name="conditions_highway_detail">경로를 무료도로 우선으로 바꿉니다</string>
+    <string name="conditions_rest_title">쉬어 가기</string>
+    <string name="conditions_rest_detail">연속으로 운전할 시간을 정합니다</string>
+    <string name="conditions_rest_limit">연속 운전 시간</string>
+    <string name="unit_minute">분</string>
+    <string name="decrease">줄이기</string>
+    <string name="increase">늘리기</string>
+    <string name="conditions_family_note">가족에게는 조건을 지켰는지만 보입니다. 위치와 운전 기록은 보내지 않습니다.</string>
+
+    <string name="route_title">오늘 경로</string>
+    <string name="route_destination">목적지</string>
+    <string name="route_none">정하지 않음</string>
+    <string name="route_option">경로 옵션</string>
+    <string name="route_free">무료도로 우선</string>
+    <string name="route_free_requested">무료도로 우선으로 요청했습니다</string>
+    <string name="route_free_failed">바꾸지 못했습니다</string>
+    <string name="route_arrival">도착 예정</string>
+    <string name="route_sunset">오늘 일몰</string>
+    <string name="route_continuous">연속 운전</string>
+    <string name="route_continuous_value">%1$d분 / %2$d분</string>
+    <string name="route_after_sunset">도착 예정이 해 진 뒤입니다. 출발을 막지는 않습니다.</string>
+    <string name="dash">-</string>
+
+    <string name="balance_label">쓸 수 있는 마일리지</string>
+    <string name="tier_green">그린 등급</string>
+    <string name="tier_silver">실버 등급</string>
+    <string name="tier_gold">골드 등급</string>
+    <string name="tier_to_next">%1$s까지 %2$s마일</string>
+    <string name="tier_silver_short">실버</string>
+    <string name="tier_gold_short">골드</string>
+    <string name="tier_rule_silver" formatted="false">실버는 누적 3,000마일과 최근 30일 깜빡이 준수율 90% 이상이 필요합니다.</string>
+    <string name="tier_rule_gold" formatted="false">골드는 누적 10,000마일과 최근 90일 조건 준수율 95% 이상이 필요합니다.</string>
+    <string name="tier_top">가장 높은 등급입니다.</string>
+    <string name="ledger_title">적립 내역</string>
+    <string name="ledger_empty">운전을 마치면 여기에 적립 내역이 쌓입니다</string>
+    <string name="ledger_turns">회전 깜빡이 %1$d번</string>
+    <string name="ledger_turns_unguided">내비 없는 회전 깜빡이 %1$d번</string>
+    <string name="ledger_distance">주행 거리 %1$dkm</string>
+    <string name="ledger_distance_double">주행 거리 %1$dkm, 안전 배수 2배</string>
+    <string name="ledger_rest">쉬어 가기</string>
+    <string name="ledger_kept_day">조건 지킨 날</string>
+    <string name="ledger_streak">7일 연속 조건 지킴</string>
+    <string name="ledger_partner">제휴처 방문</string>
+
+    <string name="uses_title">마일리지 쓰는 곳</string>
+    <string name="use_bluehands">블루핸즈 정비</string>
+    <string name="use_bluehands_detail">정비 결제 때 차감합니다</string>
+    <string name="use_next_car">다음 차 구매</string>
+    <string name="use_next_car_detail">차량 구매 때 현금처럼 씁니다</string>
+    <string name="use_bluemembers">블루멤버스 포인트 전환</string>
+    <string name="use_bluemembers_detail">블루멤버스 포인트로 바꿉니다</string>
+    <string name="use_insurance">보험 안전 운전 특약</string>
+    <string name="use_insurance_detail">등급을 특약 근거로 냅니다</string>
+    <string name="use_status">제휴 협의 중</string>
+    <string name="rest_places_title">쉬어 갈 곳</string>
+    <string name="rest_places_note">경유지에 도착해 운전석 문을 열면 방문으로 보고 30마일을 드립니다.</string>
+    <string name="km">%1$skm</string>
+    <string name="add_waypoint">경유지로 넣기</string>
+    <string name="waypoint_added">넣었습니다</string>
+    <string name="place_mangyang">서울만남의광장휴게소</string>
+    <string name="place_jukjeon">죽전휴게소</string>
+    <string name="place_giheung">기흥휴게소</string>
+
+    <string name="family_code_title">가족 초대 코드</string>
+    <string name="family_code_note">가족이 웹에서 이 코드를 넣으면 마일리지 지갑을 함께 씁니다.</string>
+    <string name="family_share">가족과 공유</string>
+    <string name="family_share_detail">잔액과 배지를 가족에게 보여 줍니다</string>
+    <string name="family_share_conditions">조건 내용 공유</string>
+    <string name="family_share_conditions_detail">어떤 조건을 정했는지까지 보여 줍니다</string>
+    <string name="family_tier">등급</string>
+    <string name="family_visible_title">가족에게 보이는 것</string>
+    <string name="family_hidden_title">가족에게 보이지 않는 것</string>
+    <string name="family_hidden">위치, 주행 경로, 시각별 기록, 놓친 회전</string>
+    <string name="family_balance_only">공유를 끄면 가족 화면에는 잔액만 남습니다.</string>
+    <string name="badge_week">이번 주 조건 7일 지킴</string>
+    <string name="badge_signal">깜빡이 준수율 95% 이상</string>
+    <string name="badge_earned">받음</string>
+    <string name="badge_not_yet">아직</string>
+
+    <string name="settings_title">설정</string>
+    <string name="settings_sound">효과음</string>
+    <string name="settings_sound_detail">깜빡이를 제때 켜면 짧은 소리를 냅니다</string>
+    <string name="settings_voice">음성 안내</string>
+    <string name="settings_voice_detail">정차 후 요약과 쉬어 가기를 말로 알려 드립니다</string>
+    <string name="settings_privacy">회전 기록과 주행 기록은 이 차 안에만 저장합니다.</string>
+    <string name="settings_clear">기록과 마일리지 지우기</string>
+    <string name="settings_clear_confirm">한 번 더 누르면 지웁니다</string>
+    <string name="settings_cleared">지웠습니다</string>
+    <string name="demo_title">시연</string>
+    <string name="demo_replay">회전 안내 재생</string>
+    <string name="demo_replay_detail">우회전, 좌회전, 우회전 순서로 안내 거리를 흘립니다</string>
+    <string name="demo_fast">연속 운전 시간 30배</string>
+    <string name="demo_fast_detail">쉬어 가기 안내를 빨리 보여 줍니다</string>
+    <string name="demo_seed">지난 6일 기록 채우기</string>
+    <string name="demo_seed_done">채웠습니다</string>
+    <string name="demo_state">판정 상태</string>
+    <string name="start">시작</string>
+    <string name="stop">멈춤</string>
+
+    <string name="consent_title">안전하게 운전한 만큼 마일리지가 쌓입니다</string>
+    <string name="consent_line_1">회전할 때 깜빡이를 제때 켜면 마일리지가 쌓입니다.</string>
+    <string name="consent_line_2">스스로 정한 조건을 지키고, 오래 달렸으면 쉬면 더 쌓입니다.</string>
+    <string name="consent_line_3">쌓은 마일리지는 가족이 함께 쓰고, 정비와 다음 차 구매에 씁니다.</string>
+    <string name="consent_data_title">이 앱이 쓰는 정보</string>
+    <string name="consent_vehicle">차량 정보</string>
+    <string name="consent_vehicle_detail">깜빡이, 브레이크, 문, 주행 거리를 판정에만 씁니다</string>
+    <string name="consent_location">위치</string>
+    <string name="consent_location_detail">야간 판정과 쉼터 거리 계산에만 쓰고 차 밖으로 보내지 않습니다</string>
+    <string name="consent_mic">마이크</string>
+    <string name="consent_mic_detail">쉬어 가기 질문에 답할 때 8초만 듣습니다</string>
+    <string name="consent_agree">동의하고 시작</string>
+    <string name="consent_later">나중에</string>
+
+    <string name="driving_title">운전 중입니다</string>
+    <string name="driving_body">도착하면 쌓인 마일리지를 알려 드립니다</string>
+
+    <string name="say_summary">회전 %1$d번 중 %2$d번 깜빡이를 제때 켰습니다. %3$d마일이 쌓였습니다.</string>
+    <string name="say_summary_no_turns">운전을 마쳤습니다. %1$d마일이 쌓였습니다.</string>
+    <string name="say_missed_tip">%1$s은 30미터 전에 켜면 됩니다.</string>
+    <string name="say_rest_question">곧 쉬어 갈 시간입니다. %1$s에 들를까요?</string>
+    <string name="say_waypoints_full">경유지가 가득 찼습니다.</string>
+    <string name="say_free_road">무료도로 우선으로 안내합니다.</string>
+    <string name="say_after_sunset">도착 예정이 해 진 뒤입니다.</string>
+    <string name="yes_stop_by">들러</string>
+    <string name="yes_ok">좋아</string>
+    <string name="yes_yes">응</string>
+    <string name="no_not">안 들</string>
+    <string name="no_dislike">싫어</string>
+    <string name="no_no">아니</string>
 </resources>
